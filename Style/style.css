@@ -1,0 +1,107 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600&family=Roboto:wght@400;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "noto sans";
+    
+    
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    background: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    /*eixo x*/
+    align-items: center;
+    /*eixo y*/
+
+    
+
+
+}
+
+
+form{
+    border: 2px solid black;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 1px 2px 10px 1px black;
+    background: white;
+    box-shadow: 0px 1px 10px 2px black;
+
+}
+
+h1{
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.textfield{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: inline;
+    background: white;
+    border-radius: 20px;
+    margin: 10px 0 10px 0;
+}
+
+.textfield > i{
+    font-size: 18pt;
+    padding-left: 2px;
+    width: 10%;
+}
+.textfield > input{
+    width: 85%;
+    height: 90%;
+    border: none;
+    border-radius: 2px;
+    background:black;
+    font-size: 14pt;
+    box-shadow: 0px 1px 5px black;
+    color: white;
+    
+
+
+}
+.textfield > input::placeholder{
+    color: whitesmoke;
+    padding-left: 10px;
+}
+input:focus{
+    border-color: white;
+}
+.btn-login{
+    width: 100%;
+    padding: 10px 0px;
+    margin: 0px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: white;
+    background: black;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -15px black;
+    margin-top: 20px;
+
+}
+.btn-login:hover{
+    transition: background 0.5s;
+    background: white;
+    transition: 0.5s;
+    color: black;
+    
+}
