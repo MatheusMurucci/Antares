@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600&family=Roboto:wght@400;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "noto sans";
+}
+
+
+nav{
+    height: 100vh;
+    width: 260px;
+    width: 50vw;
+    background: ed;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+
+.expandir{
+    border: solid black 2px;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.expandir i{
+    font-size: 30px;
+    color: black;
+    height: 50px;
+    min-width: 78px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+.expandir .text-list{
+    font-size: 22px;
+    color: black;
+    font-weight: 600;
+}
+
+.nav-links{
+    height: 100%;
+    padding: 30px 0px 150px 0px;
+    overflow: auto;
+    background: white;
+    border: solid black 2px;
+}
+
+.nav-links::-webkit-scrollbar{
+    display: none;
+
+}
+
+li{
+    list-style: none;
+    position: relative;
+
+}
+li:hover{
+    background: gray;
+}
+
+.icon-li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+li i{
+    height: 50px;
+    color: black;
+    min-width: 78px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+   
+}
+
+li a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+}
+
+li .text-list{
+    font-size: 18px;
+    color: black;
+    font-weight: 400;
+    border: soid white 2px;
+}
+
+li .sub-menu{
+    padding: 6px 6px 14px 80px;
+    margin-top: -10px;
+    background: white;
+   /* display: none;*/
+}
+
+li .sub-menu a{
+    color: black;
+    font-size: 15px;
+    padding: 5px 0px;
+    white-space: nowrap;
+    opacity: 0.6;
+
+
+}
+li .sub-meno a:hover{
+    opacity: 1;
+
+}
