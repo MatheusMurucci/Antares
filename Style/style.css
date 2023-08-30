@@ -99,9 +99,9 @@ input:focus{
 
 }
 .btn-login:hover{
-    transition: background 0.5s;
+    transition: background 1s;
     background: white;
-    transition: 0.5s;
+    transition: 1s;
     color: black;
     
 }
