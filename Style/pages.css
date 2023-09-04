@@ -25,12 +25,13 @@ nav{
     width: 100%;
     display: flex;
     align-items: center;
+    background: black;
 
 }
 
 .expandir i{
     font-size: 30px;
-    color: black;
+    color: white;
     height: 50px;
     min-width: 78px;
     text-align: center;
@@ -40,7 +41,7 @@ nav{
 
 .expandir .text-list{
     font-size: 22px;
-    color: black;
+    color: white;
     font-weight: 600;
 }
 
@@ -49,7 +50,6 @@ nav{
     padding: 30px 0px 150px 0px;
     overflow: auto;
     background: white;
-    border: solid black 2px;
 }
 
 .nav-links::-webkit-scrollbar{
@@ -80,6 +80,7 @@ li i{
     line-height: 50px;
     font-size: 20px;
     cursor: pointer;
+    color: thrthrhhrh;
    
 }
 
@@ -87,7 +88,6 @@ li a{
     display: flex;
     align-items: center;
     text-decoration: none;
-
 }
 
 li .text-list{
@@ -95,6 +95,7 @@ li .text-list{
     color: black;
     font-weight: 400;
     border: soid white 2px;
+    color: gtehehsth;
 }
 
 li .sub-menu{
