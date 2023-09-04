@@ -23,31 +23,31 @@
 
         <ul class="nav-links">
             <li class="item-menu">
-                <a href="#">
-                    <i class="bi bi-house-fill"></i>
-                    <span class="text-list">
+                <a href="#" class="home">
+                    <i class="bi bi-house home-fill"></i>
+                    <span class="text-list home">
                         home
                     </span>
                 </a>
             </li>
 
             <li class="item-menu">
-                <a href="#">
-                    <i class="bi bi-bar-chart-line-fill"></i>
-                    <span class="text-list">
+                <a href="#" class="dashboard">
+                    <i class="bi bi-bar-chart-line-fill dashboard"></i>
+                    <span class="text-list dashboard">
                         Dashboard
                     </span>
                 </a>
             </li>
             <li class="item-menu">
                 <div class="icon-li">
-                    <a href="#" class="icones">
-                        <i class="bi bi-person-badge"></i>
-                        <span class="text-list">
+                    <a href="#" class="icones cliente">
+                        <i class="bi bi-person-badge cliente"></i>
+                        <span class="text-list cliente">
                             Cliente
                         </span>
-                        <span class="arrow">
-                            <i class="bi bi-arrow-down-short"></i>
+                        <span class="arrow cliente">
+                            <i class="bi bi-arrow-down-short cliente"></i>
                         </span>
                     </a>
                     <ul class="sub-menu">
@@ -67,9 +67,9 @@
             </li>
             <li class="item-menu">
                 <div class="icon-li">
-                    <a href="#" class="icones">
-                        <i class="bi bi-box-seam-fill"></i>
-                        <span class="text-list">
+                    <a href="#" class="icones estoque">
+                        <i class="bi bi-box-seam-fill estoque"></i>
+                        <span class="text-list estoque">
                             Estoque
                         </span>
                         <i class="bi bi-arrow-down-short"></i>
@@ -90,9 +90,9 @@
             </li>
             <li class="item-menu">
                 <div class="icon-li">
-                    <a href="#" class="icones">
-                        <i class="bi bi-cash-coin"></i>
-                        <span class="text-list">
+                    <a href="#" class="icones financeiro">
+                        <i class="bi bi-cash-coin financeiro"></i>
+                        <span class="text-list financeiro">
                             Financeiro
                         </span>
                         <i class="bi bi-arrow-down-short"></i>
@@ -116,6 +116,64 @@
 
 
     </nav>
+
+    <div id="conteudo">
+
+
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous">
+        </script>
+
+    <script>
+
+        $(".home").click(function () {
+
+            $("#conteudo").load("pages/Home.html")
+
+        });
+
+
+
+
+        $(".dashboard").click(function () {
+
+            $("#conteudo").load("pages/Dashboard.html")
+
+        });
+
+
+
+
+        $(".cliente").click(function () {
+
+            $("#conteudo").load("pages/Cliente.html")
+
+        });
+
+
+
+
+        $(".estoque").click(function () {
+
+            $("#conteudo").load("pages/Estoque.html")
+
+        });
+
+
+
+
+        $(".financeiro").click(function () {
+
+            $("#conteudo").load("pages/Financeiro.html")
+
+        });
+    </script>
+
+
+
 
 </body>
 
