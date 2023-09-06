@@ -127,3 +127,7 @@ li .sub-meno a:hover{
     width: calc(100%-200px);
     color: black;
 }
+
+.form-floating label{
+    left: 8px;
+}
